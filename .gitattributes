@@ -84,7 +84,7 @@ namespace Cekilis
             listBox2.Items.Add(listBox3.Items[x - 1]);
             listBox3.Items.Add(listBox2.Items[0]);
             button3.Enabled = false;
-            MessageBox.Show("Çekiliş sonuçlanmıştır", "Uyarı");
+            MessageBox.Show("Draw end");
         }
     }
 }
